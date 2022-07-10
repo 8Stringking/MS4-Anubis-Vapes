@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background: url('/media/bigger-text-full.jpg') no-repeat center center fixed;
+    background: url('/media/egyptian-eye.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: black;
+    color: white;
     font-family: 'Marcellus SC', serif;
 }
 
@@ -16,11 +16,12 @@ body {
     display: inline-flex;
     justify-content: center;
     height: 1.5rem;
-    width: 1.5rem;
+    width: 1.2rem;
 }
 
 .logo-font {
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 .main-logo-link {
@@ -28,8 +29,8 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     min-width: 260px;
 }
 
@@ -44,8 +45,12 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
-    color: white;
+    background: gold;
+    color: black;
+}
+
+.text-white {
+    color: white !important;
 }
 
 .text-black {
