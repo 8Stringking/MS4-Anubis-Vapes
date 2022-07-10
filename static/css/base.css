@@ -16,12 +16,11 @@ body {
     display: inline-flex;
     justify-content: center;
     height: 1.5rem;
-    width: 1.2rem;
+    width: 1.5rem;
 }
 
 .logo-font {
     text-transform: uppercase;
-    font-weight: 300;
 }
 
 .main-logo-link {
@@ -68,6 +67,7 @@ body {
   .container {
     max-width: 80%;
   }
+
 }
 
 /* fixed top navbar only on medium and up */
