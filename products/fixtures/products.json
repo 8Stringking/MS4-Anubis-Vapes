@@ -1,0 +1,142 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001501",
+          "name": "Apple",
+          "description": "A fresh, smooth and sweet apple based off a granny smith apple",
+          "price": 3.99,
+          "category": 1,
+          "rating": 4.2,
+          "image_url": "https://i.postimg.cc/D0MTpFvK/apple.jpg",
+          "image": "apple.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001502",
+          "name": "Banana",
+          "description": "A ripe and sweet creamy banana flavour",
+          "price": 3.99,
+          "category": 1,
+          "rating": 4.8,
+          "image_url": "https://i.postimg.cc/dQHwVR8S/banana.jpg",
+          "image": "banana.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001503",
+          "name": "Blue Slush",
+          "description": "A perfectly balanced, sweet, and rich blueberry slush flavour",
+          "price": 3.99,
+          "category": 1,
+          "rating": 5.0,
+          "image_url": "https://i.postimg.cc/R0Lz5wSd/blue-Slush.jpg",
+          "image": "blue-slush.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001504",
+          "name": "Blueberry",
+          "description": "A sweet, and natural blueberry flavour",
+          "price": 3.99,
+          "category": 1,
+          "rating": 4.1,
+          "image_url": "https://i.postimg.cc/YqvkG4R2/blueberry.jpg",
+          "image": "blueberry.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001505",
+          "name": "Grape",
+          "description": "A balanced mix of natural grape flavours",
+          "price": 3.99,
+          "category": 1,
+          "rating": 4.6,
+          "image_url": "https://i.postimg.cc/3rcQT8Ts/grape.jpg",
+          "image": "grape.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001506",
+          "name": "Peach",
+          "description": "A creamy and rich peach flavour",
+          "price": 3.99,
+          "category": 1,
+          "rating": 4.5,
+          "image_url": "https://i.postimg.cc/136QBLbL/peach.jpg",
+          "image": "peach.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001507",
+          "name": "Pear",
+          "description": "A rich, natural and sweet pear flavour",
+          "price": 3.99,
+          "category": 1,
+          "rating": 4.7,
+          "image_url": "https://i.postimg.cc/VL2wjYZq/pear.jpg",
+          "image": "pear.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001508",
+          "name": "Strawberry and Kiwi",
+          "description": "A perfect blend of the sweetest Strawberries and kiwi's",
+          "price": 3.99,
+          "category": 1,
+          "rating": 5.0,
+          "image_url": "https://i.postimg.cc/g0WPTgWr/strawb-kiwi.jpg",
+          "image": "strawb-kiwi.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001509",
+          "name": "Strawberry",
+          "description": "A perfect pick of the sweetest Strawberries",
+          "price": 3.99,
+          "category": 1,
+          "rating": 4.4,
+          "image_url": "https://i.postimg.cc/1tR1944Q/strawberry.jpg",
+          "image": "strawberry.jpg"
+        }
+      },
+      {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+          "sku": "001510",
+          "name": "Summer Fruits",
+          "description": "A perfect blend of the most sweetest Summer Fruits",
+          "price": 3.99,
+          "category": 1,
+          "rating": 5.0,
+          "image_url": "https://i.postimg.cc/Cxb3kbq0/summer-fruits.jpg",
+          "image": "summer-fruits.jpg"
+        }
+      },
+]
