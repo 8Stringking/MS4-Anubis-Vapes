@@ -9,7 +9,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 4.2,
-          "image_url": "https://i.postimg.cc/D0MTpFvK/apple.jpg",
+          "image_url": "https://www.dropbox.com/s/scj852oprswzzb4/apple.jpg?dl=0",
           "image": "apple.jpg"
         }
       },
@@ -23,7 +23,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 4.8,
-          "image_url": "https://i.postimg.cc/dQHwVR8S/banana.jpg",
+          "image_url": "https://www.dropbox.com/s/k8rx6evckzt54b4/banana.jpg?dl=0",
           "image": "banana.jpg"
         }
       },
@@ -37,7 +37,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 5.0,
-          "image_url": "https://i.postimg.cc/R0Lz5wSd/blue-Slush.jpg",
+          "image_url": "https://www.dropbox.com/s/2exdbgflm1gpcvx/blue-Slush.jpg?dl=0",
           "image": "blue-slush.jpg"
         }
       },
@@ -51,7 +51,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 4.1,
-          "image_url": "https://i.postimg.cc/YqvkG4R2/blueberry.jpg",
+          "image_url": "https://www.dropbox.com/s/jn9je1drlgpujdx/blueberry.jpg?dl=0",
           "image": "blueberry.jpg"
         }
       },
@@ -65,7 +65,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 4.6,
-          "image_url": "https://i.postimg.cc/3rcQT8Ts/grape.jpg",
+          "image_url": "https://www.dropbox.com/s/zkz08d3cx4f1q2h/grape.jpg?dl=0",
           "image": "grape.jpg"
         }
       },
@@ -79,7 +79,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 4.5,
-          "image_url": "https://i.postimg.cc/136QBLbL/peach.jpg",
+          "image_url": "https://www.dropbox.com/s/x6ge144j54y3tfg/peach.jpg?dl=0",
           "image": "peach.jpg"
         }
       },
@@ -93,7 +93,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 4.7,
-          "image_url": "https://i.postimg.cc/VL2wjYZq/pear.jpg",
+          "image_url": "https://www.dropbox.com/s/4ox1tootr1gfgw6/pear.jpg?dl=0",
           "image": "pear.jpg"
         }
       },
@@ -107,7 +107,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 5.0,
-          "image_url": "https://i.postimg.cc/g0WPTgWr/strawb-kiwi.jpg",
+          "image_url": "https://www.dropbox.com/s/a7yiylfjn3w3sia/strawb-kiwi.jpg?dl=0",
           "image": "strawb-kiwi.jpg"
         }
       },
@@ -121,7 +121,7 @@
           "price": 3.99,
           "category": 1,
           "rating": 4.4,
-          "image_url": "https://i.postimg.cc/1tR1944Q/strawberry.jpg",
+          "image_url": "https://www.dropbox.com/s/7b0bnxixwyu7k4h/strawberry.jpg?dl=0",
           "image": "strawberry.jpg"
         }
       },
@@ -135,8 +135,149 @@
           "price": 3.99,
           "category": 1,
           "rating": 5.0,
-          "image_url": "https://i.postimg.cc/Cxb3kbq0/summer-fruits.jpg",
+          "image_url": "https://www.dropbox.com/s/wcz9npwpe7n8fap/summer-fruits.jpg?dl=0",
           "image": "summer-fruits.jpg"
         }
       },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001601",
+          "name": "Apple and Blackcurrant",
+          "description": "A perfectly balanced blend of apples and blackcurrants",
+          "price": 9.99,
+          "category": 2,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/xzi4hub481aaqvg/apple-blackcurrant.jpg?dl=0",
+          "image": "apple-blackcurrant.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001602",
+          "name": "Apple Crumble",
+          "description": "A perfect recipe of a traditional british apple crumble",
+          "price": 9.99,
+          "category": 2,
+          "rating": 4.0,
+          "image_url": "https://www.dropbox.com/s/h8ij7e1sj96y4ih/apple-crumble.jpg?dl=0",
+          "image": "apple-crumble.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001603",
+          "name": "Banana Milkshake",
+          "description": "A deliciously sweet banana milkshake",
+          "price": 9.99,
+          "category": 2,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/ao73g0m2jn48x1h/banana-milkshake.jpg?dl=0",
+          "image": "banana-milkshake.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001604",
+          "name": "Banoffee Pie",
+          "description": "A deliciously sweet banoffee pie",
+          "price": 9.99,
+          "category": 2,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/n098vq1vcxszkc8/banoffee-pie.jpg?dl=0",
+          "image": "banoffee-pie.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001605",
+          "name": "Berry Blast",
+          "description": "An amazing blend of delicious berry fruits",
+          "price": 9.99,
+          "category": 2,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/ys5u4e54t5p6wpa/berry-blast.jpg?dl=0",
+          "image": "berry-blast.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001606",
+          "name": "Orchard Apple",
+          "description": "A truly delicious apple from the finest countryside orchards",
+          "price": 9.99,
+          "category": 2,
+          "rating": 4.5,
+          "image_url": "https://www.dropbox.com/s/ti2cgbjqg04sgw0/orchard-apple.jpg?dl=0",
+          "image": "orchard-apple.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001607",
+          "name": "Ripple Ice Cream",
+          "description": "A truly cornish blend of raspberry ripple ice cream",
+          "price": 9.99,
+          "category": 2,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/alkjqyn40e520bw/ripple-ice-cream.jpg?dl=0",
+          "image": "ripple-ice-cream.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001608",
+          "name": "Salted Caramel",
+          "description": "A tasty stick traditional salted caramel flavour",
+          "price": 9.99,
+          "category": 2,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/qee314hosfi1881/salted-caramel.jpg?dl=0",
+          "image": "salted-caramel.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001609",
+          "name": "Tropical",
+          "description": "A cocktail style blend of tropical fruits",
+          "price": 9.99,
+          "category": 2,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/nggpz6f98l5r5z8/tropical.jpg?dl=0",
+          "image": "tropical.jpg"
+        }
+      },
+      {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "001610",
+          "name": "Watermelon",
+          "description": "The taste of a fresh delicious watermelon",
+          "price": 9.99,
+          "category": 2,
+          "rating": 4.2,
+          "image_url": "https://www.dropbox.com/s/jpe3irueryuslc6/watermelon.jpg?dl=0",
+          "image": "watermelon.jpg"
+        }
+      },
+      
 ]
