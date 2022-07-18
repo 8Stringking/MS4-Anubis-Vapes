@@ -279,5 +279,144 @@
           "image": "watermelon.jpg"
         }
       },
-      
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001701",
+          "name": "Cherry Cola",
+          "description": "A traditional delicious cherry cola flavour",
+          "price": 15.99,
+          "category": 3,
+          "rating": 3.9,
+          "image_url": "https://www.dropbox.com/s/beyhw54q41yi2bg/cherry-cola.jpg?dl=0",
+          "image": "cherry-cola.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001702",
+          "name": "Cola",
+          "description": "A traditional delicious cola flavour",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.4,
+          "image_url": "https://www.dropbox.com/s/3k9gl9s11isn5j8/cola.jpg?dl=0",
+          "image": "cola.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001703",
+          "name": "Honey and Lemon",
+          "description": "A delicious blend of honey and lemon",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/8zl8qbtisau6cht/honey-lemon.jpg?dl=0",
+          "image": "honey-lemon.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001704",
+          "name": "Lemon and Lime",
+          "description": "A delicious blend of lemon and lime",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/xwo8gjmqeb0migf/lemon-lime.jpg?dl=0",
+          "image": "lemon-lime.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001705",
+          "name": "Lemon",
+          "description": "The delicious test of lemon",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/l2g7pu7eepsa27m/lemon.jpg?dl=0",
+          "image": "lemon.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001706",
+          "name": "Mango",
+          "description": "The delicious test of mango",
+          "price": 15.99,
+          "category": 3,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/828j7yumeqdxqel/mango.jpg?dl=0",
+          "image": "mango.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001707",
+          "name": "Orange",
+          "description": "The delicious test of fresh orange",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.0,
+          "image_url": "https://www.dropbox.com/s/rlvmj03xjdgo46h/orange.jpg?dl=0",
+          "image": "orange.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001708",
+          "name": "Pineapple",
+          "description": "The delicious test of fresh pineapple",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.5,
+          "image_url": "https://www.dropbox.com/s/qb4vukun2x0v4fe/pineapple.jpg?dl=0",
+          "image": "pineapple.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001709",
+          "name": "Pink Berries",
+          "description": "The delicious blend of fresh pink berries",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.7,
+          "image_url": "https://www.dropbox.com/s/ugk1qmtsm6wozeh/pink-berries.jpg?dl=0",
+          "image": "pink-berries.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "001710",
+          "name": "Vanilla",
+          "description": "The delicious taste of vanilla",
+          "price": 15.99,
+          "category": 3,
+          "rating": 4.4,
+          "image_url": "https://www.dropbox.com/s/n53wc4an0mz3pq4/vanilla.jpg?dl=0",
+          "image": "vanilla.jpg"
+        }
+      },
 ]
