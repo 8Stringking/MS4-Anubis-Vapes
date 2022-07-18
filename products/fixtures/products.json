@@ -419,4 +419,144 @@
           "image": "vanilla.jpg"
         }
       },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006601",
+          "name": "Bubblegum",
+          "description": "The delicious taste of bubblegum",
+          "price": 19.99,
+          "category": 4,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/363atsn90wp59e5/bubblegum.jpg?dl=0",
+          "image": "bubblegum.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006602",
+          "name": "Candy Hearts",
+          "description": "The delicious taste of candy hearts",
+          "price": 19.99,
+          "category": 4,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/cc7i1cl0raw2ovr/candy-hearts.jpg?dl=0",
+          "image": "candy-hearts.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006603",
+          "name": "Cheesecake",
+          "description": "The delicious taste of traditional New York cheesecake",
+          "price": 19.99,
+          "category": 4,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/u5h086w82ty5sab/cheesecake.jpg?dl=0",
+          "image": "cheesecake.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006604",
+          "name": "Cherry Bakewell",
+          "description": "The taste of traditional british cherry bakewells",
+          "price": 19.99,
+          "category": 4,
+          "rating": 4.5,
+          "image_url": "https://www.dropbox.com/s/r4cjp53al0q8n5s/cherry-bakewell.jpg?dl=0",
+          "image": "cherry-bakewell.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006605",
+          "name": "Cherry",
+          "description": "The taste of fresh traditional british cherries",
+          "price": 19.99,
+          "category": 4,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/99wz6utsm9vfuxp/cherry.jpg?dl=0",
+          "image": "cherry.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006606",
+          "name": "Forest Fruits",
+          "description": "A delicious blend of forest fruits",
+          "price": 19.99,
+          "category": 4,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/r558yxrkjsslvyk/forest-fruits.jpg?dl=0",
+          "image": "forest-fruits.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006607",
+          "name": "Fruit Punch",
+          "description": "A delicious taste of fruit punch",
+          "price": 19.99,
+          "category": 4,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/7yiurt6dfl0bog9/fruit-punch.jpg?dl=0",
+          "image": "fruit-punch.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006608",
+          "name": "Jam Doughnut",
+          "description": "The taste of a delicious jam doughnut",
+          "price": 19.99,
+          "category": 4,
+          "rating": 4.1,
+          "image_url": "https://www.dropbox.com/s/bfcpsofiia3kc3h/jam-doughnut.jpg?dl=0",
+          "image": "jam-doughnut.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006609",
+          "name": "Madagascan Vanilla",
+          "description": "The taste of delicious madagascan vanilla",
+          "price": 19.99,
+          "category": 4,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/s6kacxkeeu46h1v/madagascan-vanilla.jpg?dl=0",
+          "image": "madagascan-vanilla.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "006610",
+          "name": "Strawberry Milkshake",
+          "description": "The taste of a delicious strawberry milkshake",
+          "price": 19.99,
+          "category": 4,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/31f2hwpf2grx0i6/strawberry-milkshake.jpg?dl=0",
+          "image": "strawberry-milkshake.jpg"
+        }
+      },
 ]
