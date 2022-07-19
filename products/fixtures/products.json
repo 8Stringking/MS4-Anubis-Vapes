@@ -769,6 +769,75 @@
           "image": "wotofo-profile.jpg"
         }
       },
-      
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "010301",
+          "name": "Aspire Avp Cube Pod",
+          "description": "Presenting the brand-new and innovative Aspire AVP Cube Pod Kit. Ergonomically designed, the AVP Cube Kit's all-new cube shape fits perfectly in the palm of your hand, providing ultimate comfort.",
+          "price": 12.99,
+          "category": 7,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/mhfc9awq8bczirm/aspire-avp-cube-pod.JPG?dl=0",
+          "image": "aspire-avp-cube-pod.jpg"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "010302",
+          "name": "Aspire BP80",
+          "description": "Lightweight, compact, and capable of performing at an astonishing level, the new Aspire BP80 pod device is perfect for all levels of vapers. The Aspire BP80 pod vape kit is a state of the art e-cigarette that accommodates both new and experienced vapers.",
+          "price": 24.99,
+          "category": 7,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/bsye2e4u2atqcl3/aspire-bp80.JPG?dl=0",
+          "image": "aspire-bp80.jpg"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "010303",
+          "name": "Voopoo Argus Pro",
+          "description": "Featuring style, comfort and high-level performance, the Argus Pro Pod Kit is the brand new kit from the esteemed brand VooPoo.",
+          "price": 25.99,
+          "category": 7,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/0fydhnj5t4x2yyl/voopoo-argus-pro-pod.JPG?dl=0",
+          "image": "voopoo-argus-pro-pod.jpg"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "010304",
+          "name": "Voopoo Drag-S",
+          "description": "The Drag S is the new, innovative pod vape kit from the esteemed Voopoo. The VooPoo Drag S kit's ergonomic design, perfectly matches the curvature of your hands, giving you ultimate comfort while you vape.",
+          "price": 25.99,
+          "category": 7,
+          "rating": 4.7,
+          "image_url": "https://www.dropbox.com/s/9z721hvwnl6wmah/voopoo-drag-s-pod.JPG?dl=0",
+          "image": "voopoo-drag-s-pod.jpg"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "010305",
+          "name": "Voopoo Drag-X",
+          "description": "The VOOPOO DRAG X Mod Pod Kit is full of a range of fantastic features and innovative settings, that will revolutionise your vaping experience. With a maximum output of 80W, this device packs a real punch. The Drag X is capable of producing impressive clouds whilst not compromising on flavour and utilises the delightful VooPoo PnP coils within the VooPoo PnP Pod Tank.",
+          "price": 23.99,
+          "category": 7,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/i35iu0l393ua2mi/voopoo-drag-x.JPG?dl=0",
+          "image": "voopoo-drag-x.jpg"
+        }
+      },
 
 ]
