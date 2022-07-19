@@ -559,4 +559,144 @@
           "image": "strawberry-milkshake.jpg"
         }
       },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010101",
+          "name": "Aspire Athos",
+          "description": "The Aspire Athos Tank - the latest release from Aspire. The design of the Athos takes inspiration from the Aspire EXO Tank but with some added improvements to the overall functionality of the tank. The Athos tank features adjustable airflow and a brand new penta-coil head design, that holds five coils in one atomiser head with 0.16ohm resistance.",
+          "price": 14.99,
+          "category": 5,
+          "rating": 3.9,
+          "image_url": "https://www.dropbox.com/s/kq17m52abb74cqi/aspire-athos.JPG?dl=0",
+          "image": "aspire-athos.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010102",
+          "name": "Aspire Guroo",
+          "description": "The Aspire Guroo sub-ohm tank is designed for use with the Vrod 200W Vape Kit. The tank has a 2ml e-liquid capacity, leaving you plenty of room to squeeze in your favourite e-liquid. The Guroo tank features adjustable airflow, adding another layer of customisation.",
+          "price": 19.99,
+          "category": 5,
+          "rating": 4.2,
+          "image_url": "https://www.dropbox.com/s/me3j6rnjpx0vkye/aspire-guroo.JPG?dl=0",
+          "image": "aspire-guroo.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010103",
+          "name": "Freemax Mesh Pro",
+          "description": "The world's first double and triple mesh coil sub-ohm tank, FreeMax's Mesh Pro features an exquisite design and packs an almighty punch considering its minuscule size. Featuring a 2ml capacity and a thoroughly appealing design, the FreeMax Mesh Pro tank also utilises top filling and bottom airflow that has been designed for a smoother flavour.",
+          "price": 28.99,
+          "category": 5,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/yp4uawgaguzwlx2/freemax-mesh-pro.JPG?dl=0",
+          "image": "freemax-mesh-pro.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010104",
+          "name": "Smok TFV Mini V2",
+          "description": "The TFV Mini V2 from Smok offers a sub-ohm vaping tank that provides an immensely enjoyable vaping experience. Utilising the impressive Mini V2 A1 0.17ohm and Mini V2 A2 0.2ohm coils, this wonderful tank produces thick clouds of flavoursome vapour when paired with your preferred vape juice.",
+          "price": 18.99,
+          "category": 5,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/h63roaiffwokkuv/smok-tfv-mini-v2.JPG?dl=0",
+          "image": "smok-tfv-mini-v2.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010105",
+          "name": "Smok TFV18 Mini",
+          "description": "Introducing the brand new TFV18 Mini vape tank by Smok which provides sub-ohm vapers with the ideal tank that is small in size but big in power output. The TFV18 Mini utilises two variations of low resistance mesh coils this new Smok vape tank will create delicious flavour and vapour and can be used up to 140W.",
+          "price": 19.99,
+          "category": 5,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/xmcy2l0ykds42if/smok-tfv18-mini.JPG?dl=0",
+          "image": "smok-tfv18-mini.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010106",
+          "name": "Uwell Crown 5",
+          "description": "The Uwell Crown 5 Tank is an outstanding upgrade on its predecessor, providing an excellent vaping experience for sub-ohm fans. Made from stainless steel and pyrex glass, the tank has been expertly polished to provide a sleek and smooth feel.",
+          "price": 19.99,
+          "category": 5,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/agpxmxhhqi7yy8f/uwell-crown-5.JPG?dl=0",
+          "image": "uwell-crown-5.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010107",
+          "name": "Vapefly Kriemhild 2",
+          "description": "The Vapefly Kriemhild 2 is the new and improved version of the ever-popular Kriemhild Stock Coil sub-ohm tank. Designed with sub-ohm vapers in mind, this brilliant tank has a range of features that provide you with an unmatched vaping experience.",
+          "price": 24.99,
+          "category": 5,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/xj6izrozgm32a2n/vapefly-kriemhild-2.JPG?dl=0",
+          "image": "vapefly-kriemhild-2.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010108",
+          "name": "Voopoo Maat",
+          "description": "The all new MAAT tank is compatible with the Argus GT 2 Vape Kit by VooPoo. This tank is packed with an array of new, advanced features to enhance your vaping experience. This tank uses stainless steel and Pyrex material to prevent overheating and corrosion damage.",
+          "price": 19.99,
+          "category": 5,
+          "rating": 4.4,
+          "image_url": "https://www.dropbox.com/s/vvl0c8rzfvyl6lh/voopoo-maat.JPG?dl=0",
+          "image": "voopoo-maat.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010109",
+          "name": "Voopoo PnP-X Pod Tank",
+          "description": "The VooPoo PnP-X Pod Tank is a vape tank that has been designed to create incredible flavour and vapour with the Drag S PnP-X and Drag X PnP-X Vape Kits. The tanks are compatible with the PnP range of coils, also manufactured by VooPoo.",
+          "price": 12.99,
+          "category": 5,
+          "rating": 4.2,
+          "image_url": "https://www.dropbox.com/s/o9h7gtcyq3udxrx/voopoo-pnp-x.JPG?dl=0",
+          "image": "voopoo-pnp-x.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "010110",
+          "name": "Voopoo Tpp-X Tank",
+          "description": "The brand new TPP X Pod tanks from VooPoo take vaping to the next level. Featuring a highly impressive 360 degree adjustable airflow, replacement mesh coils and a high power capability, the TPP X Pod Tank will offer amazing flavour and vapour production. This sub-ohm pod tank is designed for use with high VG E-Liquid and will offer a truly memorable vaping experience.",
+          "price": 9.99,
+          "category": 5,
+          "rating": 4.1,
+          "image_url": "https://www.dropbox.com/s/khcokx5v2jber0b/voopoo-tpp-x.JPG?dl=0",
+          "image": "voopoo-tpp-x.jpg"
+        }
+      },
 ]
