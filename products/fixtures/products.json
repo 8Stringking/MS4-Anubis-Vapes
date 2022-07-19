@@ -699,4 +699,76 @@
           "image": "voopoo-tpp-x.jpg"
         }
       },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "010201",
+          "name": "GeekVape Zeus RDA",
+          "description": "The Zeus RDA by Geekvape is a brand new rebuildable dripping atomizer (RDA) that features a new aesthetically pleasing design and offers unrivalled flavour from the Z series line of vaping products. It is optimised for sub-ohm vaping and has a wide bottom airflow that creates an improved vapour production and can be easily topped up with e-liquid from the top of the atomizer and features a deep juice well that holds excess e-liquid.",
+          "price": 11.99,
+          "category": 6,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/erunz6o5ao4xvg2/geekvape-zeus-rda.JPG?dl=0",
+          "image": "geekvape-zeus-rda.jpg"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "010202",
+          "name": "HellVape Dead Rabbit 3",
+          "description": "The Hellvape Dead Rabbit 3 RTA features a 2ml e-liquid capacity which can easily be filled at the top to minimise leakage. There is also a 810 drip tip as well as an adjustable airflow for a smoother performance.",
+          "price": 21.99,
+          "category": 6,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/fl8tplqld0nqkr8/hellvape-dead-rabbit-3.JPG?dl=0",
+          "image": "hellvape-dead-rabbit-3.jpg"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "010203",
+          "name": "Kylin M Pro",
+          "description": "Check out the new Kylin M Pro RTA by Vandy Vape,improved version of the Original Kylin M. The Kylin M Pro RTA has a huge 8ml Juice Capacity while still small and compact. It measures 33.35mm (H) * 24.22mm (D). This is a Top Fill Atomizer with Top Airflow making this Leaf Proof. use the M Class Coils.",
+          "price": 32.85,
+          "category": 6,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/r3l8fwrc8jewe5c/kylin-m-pro.JPG?dl=0",
+          "image": "kylin-m-pro.jpg"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "010204",
+          "name": "Kylin Mesh M",
+          "description": "Vandyvape Kylin M RTA adopts durable and replaceable mesh coil that extend the coil life effectively. It got a top airflow intake preventing from dirty and oil leakage. The honercomb intake airhole plus trapezoidal airflow intake really enrich and blow out great massive cloud and mild flavor. What’s more, the ceramic sharpnel design built in the deck spurring the suppression in terms of different kinds of cotton volume, which also lower the rate of burning. With the top refilling device and inner juice diversion channel, comfortable and portable feeling are available.",
+          "price": 32.85,
+          "category": 6,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/pyxguavr7std3hb/kylin-mesh-m.JPG?dl=0",
+          "image": "kylin-mesh-m.jpg"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "010205",
+          "name": "Wotofo Profile",
+          "description": "Presenting the brilliant new addition to the Wotofo team, the Profile RDTA! This RDTA is the brother of the Profile RDA and is just as brilliant",
+          "price": 26.99,
+          "category": 6,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/3z79i83xded97om/wotofo-profile.JPG?dl=0",
+          "image": "wotofo-profile.jpg"
+        }
+      },
+      
+
 ]
