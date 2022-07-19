@@ -839,5 +839,424 @@
           "image": "voopoo-drag-x.jpg"
         }
       },
-
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "006601",
+          "name": "Bubblegum",
+          "description": "The delicious taste of bubblegum",
+          "price": 19.99,
+          "category": 8,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/363atsn90wp59e5/bubblegum.jpg?dl=0",
+          "image": "bubblegum.jpg"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "006602",
+          "name": "Candy Hearts",
+          "description": "The delicious taste of candy hearts",
+          "price": 19.99,
+          "category": 8,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/cc7i1cl0raw2ovr/candy-hearts.jpg?dl=0",
+          "image": "candy-hearts.jpg"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "006603",
+          "name": "Cheesecake",
+          "description": "The delicious taste of traditional New York cheesecake",
+          "price": 19.99,
+          "category": 8,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/u5h086w82ty5sab/cheesecake.jpg?dl=0",
+          "image": "cheesecake.jpg"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "006604",
+          "name": "Cherry Bakewell",
+          "description": "The taste of traditional british cherry bakewells",
+          "price": 19.99,
+          "category": 8,
+          "rating": 4.5,
+          "image_url": "https://www.dropbox.com/s/r4cjp53al0q8n5s/cherry-bakewell.jpg?dl=0",
+          "image": "cherry-bakewell.jpg"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "006605",
+          "name": "Cherry",
+          "description": "The taste of fresh traditional british cherries",
+          "price": 19.99,
+          "category": 8,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/99wz6utsm9vfuxp/cherry.jpg?dl=0",
+          "image": "cherry.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "010204",
+          "name": "Kylin Mesh M",
+          "description": "Vandyvape Kylin M RTA adopts durable and replaceable mesh coil that extend the coil life effectively. It got a top airflow intake preventing from dirty and oil leakage. The honercomb intake airhole plus trapezoidal airflow intake really enrich and blow out great massive cloud and mild flavor. What’s more, the ceramic sharpnel design built in the deck spurring the suppression in terms of different kinds of cotton volume, which also lower the rate of burning. With the top refilling device and inner juice diversion channel, comfortable and portable feeling are available.",
+          "price": 32.85,
+          "category": 9,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/pyxguavr7std3hb/kylin-mesh-m.JPG?dl=0",
+          "image": "kylin-mesh-m.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "010205",
+          "name": "Wotofo Profile",
+          "description": "Presenting the brilliant new addition to the Wotofo team, the Profile RDTA! This RDTA is the brother of the Profile RDA and is just as brilliant",
+          "price": 26.99,
+          "category": 9,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/3z79i83xded97om/wotofo-profile.JPG?dl=0",
+          "image": "wotofo-profile.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "010301",
+          "name": "Aspire Avp Cube Pod",
+          "description": "Presenting the brand-new and innovative Aspire AVP Cube Pod Kit. Ergonomically designed, the AVP Cube Kit's all-new cube shape fits perfectly in the palm of your hand, providing ultimate comfort.",
+          "price": 12.99,
+          "category": 9,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/mhfc9awq8bczirm/aspire-avp-cube-pod.JPG?dl=0",
+          "image": "aspire-avp-cube-pod.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "010302",
+          "name": "Aspire BP80",
+          "description": "Lightweight, compact, and capable of performing at an astonishing level, the new Aspire BP80 pod device is perfect for all levels of vapers. The Aspire BP80 pod vape kit is a state of the art e-cigarette that accommodates both new and experienced vapers.",
+          "price": 24.99,
+          "category": 9,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/bsye2e4u2atqcl3/aspire-bp80.JPG?dl=0",
+          "image": "aspire-bp80.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "010303",
+          "name": "Voopoo Argus Pro",
+          "description": "Featuring style, comfort and high-level performance, the Argus Pro Pod Kit is the brand new kit from the esteemed brand VooPoo.",
+          "price": 25.99,
+          "category": 9,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/0fydhnj5t4x2yyl/voopoo-argus-pro-pod.JPG?dl=0",
+          "image": "voopoo-argus-pro-pod.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "001501",
+          "name": "Apple",
+          "description": "A fresh, smooth and sweet apple based off a granny smith apple",
+          "price": 3.99,
+          "category": 10,
+          "rating": 4.2,
+          "image_url": "https://www.dropbox.com/s/scj852oprswzzb4/apple.jpg?dl=0",
+          "image": "apple.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "001502",
+          "name": "Banana",
+          "description": "A ripe and sweet creamy banana flavour",
+          "price": 3.99,
+          "category": 10,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/k8rx6evckzt54b4/banana.jpg?dl=0",
+          "image": "banana.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "001503",
+          "name": "Blue Slush",
+          "description": "A perfectly balanced, sweet, and rich blueberry slush flavour",
+          "price": 3.99,
+          "category": 10,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/2exdbgflm1gpcvx/blue-Slush.jpg?dl=0",
+          "image": "blue-slush.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "001504",
+          "name": "Blueberry",
+          "description": "A sweet, and natural blueberry flavour",
+          "price": 3.99,
+          "category": 10,
+          "rating": 4.1,
+          "image_url": "https://www.dropbox.com/s/jn9je1drlgpujdx/blueberry.jpg?dl=0",
+          "image": "blueberry.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "001505",
+          "name": "Grape",
+          "description": "A balanced mix of natural grape flavours",
+          "price": 3.99,
+          "category": 10,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/zkz08d3cx4f1q2h/grape.jpg?dl=0",
+          "image": "grape.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "006601",
+          "name": "Bubblegum",
+          "description": "The delicious taste of bubblegum",
+          "price": 19.99,
+          "category": 11,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/363atsn90wp59e5/bubblegum.jpg?dl=0",
+          "image": "bubblegum.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "006602",
+          "name": "Candy Hearts",
+          "description": "The delicious taste of candy hearts",
+          "price": 19.99,
+          "category": 11,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/cc7i1cl0raw2ovr/candy-hearts.jpg?dl=0",
+          "image": "candy-hearts.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "006603",
+          "name": "Cheesecake",
+          "description": "The delicious taste of traditional New York cheesecake",
+          "price": 19.99,
+          "category": 11,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/u5h086w82ty5sab/cheesecake.jpg?dl=0",
+          "image": "cheesecake.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "006604",
+          "name": "Cherry Bakewell",
+          "description": "The taste of traditional british cherry bakewells",
+          "price": 19.99,
+          "category": 11,
+          "rating": 4.5,
+          "image_url": "https://www.dropbox.com/s/r4cjp53al0q8n5s/cherry-bakewell.jpg?dl=0",
+          "image": "cherry-bakewell.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "006605",
+          "name": "Cherry",
+          "description": "The taste of fresh traditional british cherries",
+          "price": 19.99,
+          "category": 11,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/99wz6utsm9vfuxp/cherry.jpg?dl=0",
+          "image": "cherry.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "010204",
+          "name": "Kylin Mesh M",
+          "description": "Vandyvape Kylin M RTA adopts durable and replaceable mesh coil that extend the coil life effectively. It got a top airflow intake preventing from dirty and oil leakage. The honercomb intake airhole plus trapezoidal airflow intake really enrich and blow out great massive cloud and mild flavor. What’s more, the ceramic sharpnel design built in the deck spurring the suppression in terms of different kinds of cotton volume, which also lower the rate of burning. With the top refilling device and inner juice diversion channel, comfortable and portable feeling are available.",
+          "price": 32.85,
+          "category": 11,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/pyxguavr7std3hb/kylin-mesh-m.JPG?dl=0",
+          "image": "kylin-mesh-m.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "010205",
+          "name": "Wotofo Profile",
+          "description": "Presenting the brilliant new addition to the Wotofo team, the Profile RDTA! This RDTA is the brother of the Profile RDA and is just as brilliant",
+          "price": 26.99,
+          "category": 11,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/3z79i83xded97om/wotofo-profile.JPG?dl=0",
+          "image": "wotofo-profile.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "010301",
+          "name": "Aspire Avp Cube Pod",
+          "description": "Presenting the brand-new and innovative Aspire AVP Cube Pod Kit. Ergonomically designed, the AVP Cube Kit's all-new cube shape fits perfectly in the palm of your hand, providing ultimate comfort.",
+          "price": 12.99,
+          "category": 11,
+          "rating": 4.3,
+          "image_url": "https://www.dropbox.com/s/mhfc9awq8bczirm/aspire-avp-cube-pod.JPG?dl=0",
+          "image": "aspire-avp-cube-pod.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "010302",
+          "name": "Aspire BP80",
+          "description": "Lightweight, compact, and capable of performing at an astonishing level, the new Aspire BP80 pod device is perfect for all levels of vapers. The Aspire BP80 pod vape kit is a state of the art e-cigarette that accommodates both new and experienced vapers.",
+          "price": 24.99,
+          "category": 11,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/bsye2e4u2atqcl3/aspire-bp80.JPG?dl=0",
+          "image": "aspire-bp80.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "010303",
+          "name": "Voopoo Argus Pro",
+          "description": "Featuring style, comfort and high-level performance, the Argus Pro Pod Kit is the brand new kit from the esteemed brand VooPoo.",
+          "price": 25.99,
+          "category": 11,
+          "rating": 4.9,
+          "image_url": "https://www.dropbox.com/s/0fydhnj5t4x2yyl/voopoo-argus-pro-pod.JPG?dl=0",
+          "image": "voopoo-argus-pro-pod.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "001501",
+          "name": "Apple",
+          "description": "A fresh, smooth and sweet apple based off a granny smith apple",
+          "price": 3.99,
+          "category": 11,
+          "rating": 4.2,
+          "image_url": "https://www.dropbox.com/s/scj852oprswzzb4/apple.jpg?dl=0",
+          "image": "apple.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "001502",
+          "name": "Banana",
+          "description": "A ripe and sweet creamy banana flavour",
+          "price": 3.99,
+          "category": 11,
+          "rating": 4.8,
+          "image_url": "https://www.dropbox.com/s/k8rx6evckzt54b4/banana.jpg?dl=0",
+          "image": "banana.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "001503",
+          "name": "Blue Slush",
+          "description": "A perfectly balanced, sweet, and rich blueberry slush flavour",
+          "price": 3.99,
+          "category": 11,
+          "rating": 5.0,
+          "image_url": "https://www.dropbox.com/s/2exdbgflm1gpcvx/blue-Slush.jpg?dl=0",
+          "image": "blue-slush.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "001504",
+          "name": "Blueberry",
+          "description": "A sweet, and natural blueberry flavour",
+          "price": 3.99,
+          "category": 11,
+          "rating": 4.1,
+          "image_url": "https://www.dropbox.com/s/jn9je1drlgpujdx/blueberry.jpg?dl=0",
+          "image": "blueberry.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "sku": "001505",
+          "name": "Grape",
+          "description": "A balanced mix of natural grape flavours",
+          "price": 3.99,
+          "category": 11,
+          "rating": 4.6,
+          "image_url": "https://www.dropbox.com/s/zkz08d3cx4f1q2h/grape.jpg?dl=0",
+          "image": "grape.jpg"
+        }
+      }
 ]
