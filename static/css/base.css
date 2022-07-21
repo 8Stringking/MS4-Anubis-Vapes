@@ -65,7 +65,7 @@ body {
 }
 
 .bg-black {
-    background: yellow !important;
+    background: black !important;
 }
 
 .overlay {
@@ -83,7 +83,7 @@ body {
 }
 
 .card-footer {
-    background: gray;
+    background: lightgrey;
 }
 
 
