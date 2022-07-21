@@ -3,6 +3,7 @@ from .models import Product
 
 # Create your views here.
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -11,7 +12,7 @@ def all_products(request):
     context = {
         'products': products,
     }
-    
+
     return render(request, 'products/products.html', context)
 
 
@@ -23,5 +24,5 @@ def product_detail(request, product_id):
     context = {
         'product': product,
     }
-    
+  
     return render(request, 'products/product_detail.html', context)
