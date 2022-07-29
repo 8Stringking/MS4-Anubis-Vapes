@@ -4,7 +4,7 @@ from django.test import TestCase
 class TestViews(TestCase):
 
     """
-    this test is to check that the index view is rendering
+    this test is to check that the all_products view is rendering
     the correct template when used
     """
 
