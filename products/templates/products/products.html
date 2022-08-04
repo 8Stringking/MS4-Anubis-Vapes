@@ -71,7 +71,7 @@
                                 <div class="card-footer text-black pt-0 border-2 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                            <p class="lead mb-0 text-left font-weight-bold">£{{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-black" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -84,6 +84,7 @@
                                             {% else %}
                                                 <small class="text-black">No Rating</small>
                                             {% endif %}
+                                            <br>
                                             {% if not request.user.is_anonymous %}
                                             {% if product in wishlist %}
                                             <a class="wishlist-red-heart" href="{% url 'remove_from_wishlist' product.id 'products' %}">
