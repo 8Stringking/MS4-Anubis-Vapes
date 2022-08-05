@@ -57,24 +57,32 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: gold;
-    color: black;
+    background: #EE3108;
+    color: white;
 }
 
 .text-white {
     color: white !important;
 }
 
-.text-yellow {
-    color: yellow !important;
+.bg-red {
+    background: #EE3108 !important;
+}
+
+.text-red {
+    color: #EE3108 !important;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #EE3108 !important;
+}
+
+.text-black2 {
+    color: black !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #EE3108 !important;
 }
 
 .bg-black {
@@ -96,7 +104,7 @@ body {
 }
 
 .card-footer {
-    background: lightgray;
+    background: white;
 }
 
 a.category-badge > span.badge:hover {
@@ -188,6 +196,26 @@ input[name='q']::placeholder {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+.wishlist-red-heart {
+    color: red;
+    cursor: pointer;
+}
+
+.wishlist-red-heart:hover {
+    color: red;
+    text-shadow: 0px 0px 8px red;
+}
+
+.wishlist-grey-heart {
+    color: grey;
+    cursor: pointer;
+}
+
+.wishlist-grey-heart:hover {
+    color: grey;
+    text-shadow: 0px 0px 8px grey;
 }
 
 /* -------------------------------- Media Queries */
