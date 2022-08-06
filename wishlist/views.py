@@ -103,4 +103,3 @@ def remove_from_wishlist(request, product_id, prev_page):
         return redirect(reverse('products'))
     elif prev_page == 'wishlist':
         return redirect(reverse('wishlist'))
-    # add else for 404 page
