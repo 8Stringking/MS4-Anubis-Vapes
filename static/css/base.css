@@ -61,6 +61,14 @@ body {
     color: white;
 }
 
+.text-primary {
+    color: darkred !important;
+}
+
+.text-info {
+    color: darkred !important;
+}
+
 .text-white {
     color: white !important;
 }
