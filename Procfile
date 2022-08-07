@@ -1,1 +1,1 @@
-web: python run.py
+web: gunicorn <MS4-Anubis-Vapes>.wsgi:application
