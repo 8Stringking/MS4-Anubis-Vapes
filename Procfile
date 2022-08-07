@@ -1,1 +1,1 @@
-web: gunicorn anubis-vapes.wsgi:application
+web: gunicorn anubis_vapes.wsgi:application
