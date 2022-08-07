@@ -12,6 +12,7 @@ from .models import Wishlist, WishListItem
 def wishlist(request):
     ''' loads/creates users wishlist page '''
 
+    return render(request, 'wishlist/wishlist.html')
     user_profile = get_object_or_404(UserProfile, user=request.user)
 
     if request.method == 'POST':
@@ -43,7 +44,7 @@ def add_to_wishlist(request, product_id):
     '''
     creates new wishlistitem connected to users wishlist
     '''
-
+    
     user_profile = get_object_or_404(UserProfile, user=request.user)
     # gets all wishlists
     wishlists = Wishlist.objects.all()
