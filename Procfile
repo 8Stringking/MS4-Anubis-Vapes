@@ -1,1 +1,1 @@
-web: gunicorn <MS4-Anubis-Vapes>.wsgi:application
+web: gunicorn MS4-Anubis-Vapes.wsgi:application
