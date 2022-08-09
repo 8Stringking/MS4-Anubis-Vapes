@@ -17,6 +17,9 @@ import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+SECRET_KEY = 'django-insecure-o@s7a*9be9ybq)9sf&8s6$cu&x0#wok5_li)btn+vydm*w(+dy'
+
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
