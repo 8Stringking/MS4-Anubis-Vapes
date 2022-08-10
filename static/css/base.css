@@ -81,6 +81,10 @@ body {
     color: #EE3108 !important;
 }
 
+.text-red2 {
+    color: darkred !important;
+}
+
 .text-black {
     color: black !important;
 }

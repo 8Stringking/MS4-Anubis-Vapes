@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 order-md-first">
-                    <p class="text-muted mt-3 text-center text-md-left">
+                    <p class="text-black mt-3 text-center text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
                             <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
                         {% endif %}
@@ -87,11 +87,11 @@
                                             <br>
                                             {% if not request.user.is_anonymous %}
                                             {% if product in wishlist %}
-                                            <a class="wishlist-red-heart text-red" href="{% url 'remove_from_wishlist' product.id 'products' %}">
+                                            <a class="wishlist-red-heart text-red2" href="{% url 'remove_from_wishlist' product.id 'products' %}">
                                                 <i class="fas fa-heart"></i> 
                                             </a>
                                             {% else %}
-                                            <a class="wishlist-grey-heart text-red" href="{% url 'add_to_wishlist' product.id %}">
+                                            <a class="wishlist-grey-heart text-red2" href="{% url 'add_to_wishlist' product.id %}">
                                                 <i class="fas fa-heart"><small>Add To Wishlist</small></i>
                                             </a>
                                             {% endif %}
@@ -99,7 +99,7 @@
                                             {% if request.user.is_superuser %}
                                             <small class="ml-3">
                                                 <a class="text-black" href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                                <a class="text-red" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                <a class="text-red2" href="{% url 'delete_product' product.id %}">Delete</a>
                                             </small>
                                             {% endif %}
                                         </div>
