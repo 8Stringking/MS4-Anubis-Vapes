@@ -146,9 +146,7 @@
     {% endblock %}
 
     {% block postloadjs %}
-    <script type="text/javascript">
-      $('.toast').toast('show');
-    </script>
+    {% include 'templates/includes/update_remove_script.js' %}
     {% endblock %}
 
     
