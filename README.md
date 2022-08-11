@@ -1,4 +1,4 @@
-![am-i-responsive](media/readme_image_files/am-i-responsive.jpg)
+![am-i-responsive](documentation/readme_image_files/am-i-responsive.jpg)
 
 
 # Introduction
@@ -43,7 +43,9 @@ This is also a vape shop that has been designed with security in mind. From the 
 ## User Stories
   [Go to the top](#contents)
 
-
+          User Stories                               
+-------| ----------------------------------------------
+1  | Does the nav bar navigate to each page?  
 
 
 
@@ -52,29 +54,29 @@ This is also a vape shop that has been designed with security in mind. From the 
 ## WireFrames
   [Go to the top](#contents)
 
-![home-screen](media/readme_image_files/wireframes/home-screen.jpg)
+![home-screen](documentation/readme_image_files/wireframes/home-screen.jpg)
 
-![products-page](media/readme_image_files/wireframes/products-page.jpg)
+![products-page](documentation/readme_image_files/wireframes/products-page.jpg)
 
-![product-detail](media/readme_image_files/wireframes/product-detail.jpg)
+![product-detail](documentation/readme_image_files/wireframes/product-detail.jpg)
 
-![card-design](media/readme_image_files/wireframes/card-design.jpg)
+![card-design](documentation/readme_image_files/wireframes/card-design.jpg)
 
-![sign-in](media/readme_image_files/wireframes/sign-in.jpg)
+![sign-in](documentation/readme_image_files/wireframes/sign-in.jpg)
 
-![register](media/readme_image_files/wireframes/register.jpg)
+![register](documentation/readme_image_files/wireframes/register.jpg)
 
-![account-profile](media/readme_image_files/wireframes/account-profile.jpg)
+![account-profile](documentation/readme_image_files/wireframes/account-profile.jpg)
 
-![add-product](media/readme_image_files/wireframes/add-a-product.jpg)
+![add-product](documentation/readme_image_files/wireframes/add-a-product.jpg)
 
-![wishlist](media/readme_image_files/wireframes/wishlist.jpg)
+![wishlist](documentation/readme_image_files/wireframes/wishlist.jpg)
 
-![cart](media/readme_image_files/wireframes/cart.jpg)
+![cart](documentation/readme_image_files/wireframes/cart.jpg)
 
-![checkout](media/readme_image_files/wireframes/checkout.jpg)
+![checkout](documentation/readme_image_files/wireframes/checkout.jpg)
 
-![checkout-success](media/readme_image_files/wireframes/checkout-success.jpg)
+![checkout-success](documentation/readme_image_files/wireframes/checkout-success.jpg)
 
 <a name="web-design"></a>
 ## Web Design
@@ -97,5 +99,20 @@ With accessibility in mind and having the ability for this site to be read by sc
 ## Data-Schema
   [Go to the top](#contents)
 
-![entity-relationship-diagram](media/readme_image_files/schema/entity-relationship-diagram.jpg)
+![entity-relationship-diagram](documentation/readme_image_files/schema/entity-relationship-diagram.jpg)
 
+
+
+
+
+<a name="accessibility"></a>
+## Accessibility
+  [Go to the top](#contents)
+
+
+
+
+
+<a name="website-walkthrough"></a>
+# Website Walkthrough
+  [Go to the top](#contents)
