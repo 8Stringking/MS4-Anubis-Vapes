@@ -2,11 +2,13 @@
 {% load static %}
 
 {% block inner_content %}
-<hr>
-<h2 class="logo-font mb-4">Oooops</h2>
-<hr>
-<p class="text-black">Something has gone wrong, please click below to return to the home page</p>
+<div class="overlay">
+    <hr>
+    <h2 class="logo-font mb-4">Oooops</h2>
+    <hr>
+    <p class="text-black">Something has gone wrong, please click below to return to the home page</p>
 
-<a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Home</a>
+    <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Home</a>
+</div>
 
 {% endblock %}
