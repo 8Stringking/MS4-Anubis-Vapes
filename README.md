@@ -168,7 +168,7 @@ However below are the only 2 pages in the site that isnt a 100% accessible. In t
 
 ![products-page](documentation/readme_image_files/walkthrough/logged-in-products-page.jpg)
 
-This is the products page (while logged in as admin) this satisfies user stories 1a (for this user story obviously without the user logged in they would not see the edit/delete bvuttons),3c,2c, 5a and 7b
+This is the products page (while logged in as admin) this satisfies user stories 1a (for this user story obviously without the user logged in they would not see the edit/delete bvuttons),3c,2c, 5a and 7b, and also 2a by using the dropdown box or the nav bar to select a category, and 4a by using the dropdown box to sort the products by price, alphabetically,category, and rating
 
 ![products-detail](documentation/readme_image_files/walkthrough/logged-in-product-detail.jpg)
 
@@ -182,12 +182,33 @@ This is the sign in page for the website and this satisfies user stories 2b, wit
 
 This is the registration page and this satisfies user stories 1b, which upon completion would recieve a confirmation which satisfies user story 4b
 
+![password-reset](documentation/readme_image_files/walkthrough/password-reset.jpg)
+
+This is the password reset page and this satisfies user story 3b
+
 ![profile](documentation/readme_image_files/walkthrough/profile.jpg)
 
+This is the users profile page where they save delivery information, this satisfies user stories 5b, and 6b
 
+![wishlist](documentation/readme_image_files/walkthrough/wishlist.jpg)
 
+This is the wishlist page and this satisfies user stories 7b and 8b
 
+![add-product](documentation/readme_image_files/walkthrough/add-product.jpg)
 
+This is the add product page for admin users and this satisfies user story 1c
+
+![cart](documentation/readme_image_files/walkthrough/cart.jpg)
+
+This is the cart page and this satisfies user stories 7a
+
+![checkout](documentation/readme_image_files/walkthrough/checkout.jpg)
+
+This is the checkout page and satisfies user story 8a 
+
+![checkout-success](documentation/readme_image_files/walkthrough/checkout-success.jpg)
+
+This is the checkout success page and this satisfies user story 9a
 
 <a name="methods-for-creating-the-site"></a>
 # Methods For Creating The Site
@@ -217,4 +238,11 @@ This is the registration page and this satisfies user stories 1b, which upon com
 # Testing
   [Go to the top](#contents)
 
- Please refer to [**Testing **](testing.md) for more information on testing.
+ Please refer to [**Testing **](testing.md) for information on testing.
+
+ <a name="bugs"></a>
+# Bugs
+  [Go to the top](#contents)
+
+The first bug that ive found on my site which i was not able to remedy was the quality of the home image on the home page. I did ensure that this image was sized well, with a good ratio, and this was fine in the development of this site. However when i deployed to heroku and used amazon web services to host the images, the picture is now lower quality and i have tried to fix this, by changing settings in my bucket and even re uploading the image, however since i know the size isnt an issue i can only determine that something in the deployment has affected this, and i have not found a fix for this as of yet.
+
