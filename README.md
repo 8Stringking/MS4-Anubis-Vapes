@@ -43,9 +43,22 @@ This is also a vape shop that has been designed with security in mind. From the 
 ## User Stories
   [Go to the top](#contents)
 
-          User Stories                               
+### User Stories For A Shopper 
+
+Number | User Stories                               
 -------| ----------------------------------------------
-1  | Does the nav bar navigate to each page?  
+1 | View a list of products to select which ones to buy |
+2 | View a specific category to find what a user wants easily |
+3 | View specifc product details, eg. price, description |
+4 | Sort a list of items. By price, alphabetically, rating, and category |
+5 | To be able to search for an item |
+6 | Select a quantity of an item to buy |
+7 | To view items in my bag including the total of products and price |
+8 | To be able to enter payment details to purchase items |
+9 | To see my order confirmation including what the user has bought |
+
+
+### User Stories 
 
 
 
@@ -101,6 +114,10 @@ With accessibility in mind and having the ability for this site to be read by sc
 
 ![entity-relationship-diagram](documentation/readme_image_files/schema/entity-relationship-diagram.jpg)
 
+Above is the data schema for the relational database in the Anubis Vapes application.
+
+I have not added a key to this Entity Relationship Diagram as i have labelled each variable next to the name as to what each individual variable is.
+
 
 
 
@@ -109,10 +126,36 @@ With accessibility in mind and having the ability for this site to be read by sc
 ## Accessibility
   [Go to the top](#contents)
 
+![home-page](documentation/readme_image_files/accessibility/home-page.jpg)
 
+![product-detail-page](documentation/readme_image_files/accessibility/product-detail.jpg)
 
+![wishlist](documentation/readme_image_files/accessibility/wishlist-page.jpg)
+
+Above you can see that across the site i was successful in making this site accessible in the development stage which has carried over into the deployed stage.
+
+However below are the only 2 pages in the site that isnt a 100% accessible. In the products page, i was unable to give the link a decernable name without causing errors in the HTML validation, even after extensive research and many attempts, however this page still reads at 97%. In the checkout page the only issue i was not able to fix was the picture of the product in the checkout. Again after many attempts and much research i was unable to find this solution, this page however still reads at 98%.
+
+![products-page](documentation/readme_image_files/accessibility/products-page.jpg)
+
+![checkout-page](documentation/readme_image_files/accessibility/checkout-page.jpg)
 
 
 <a name="website-walkthrough"></a>
 # Website Walkthrough
   [Go to the top](#contents)
+
+
+
+
+<a name="methods-for-creating-the-site"></a>
+# Methods For Creating The Site
+  [Go to the top](#contents)
+
+
+
+<a name="Testing"></a>
+# Testing
+  [Go to the top](#contents)
+
+ Please refer to [**Testing **](testing.md) for more information on testing.
