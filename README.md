@@ -1,13 +1,11 @@
 ![am-i-responsive](documentation/readme_image_files/am-i-responsive.jpg)
 
-
 # Introduction
 
 Welcome to the online e-commerce store Anubis Vapes! This is an online store using the Django framework alongside a postgresql database. In this shop not only can the user select as many items to purchase and use the secure checkout to pay for their items. The user can also register an account with Anubis Vapes to be able to pick items and place them in their own wishlist which will save on their account, and also have the ability to pre-save their delivery information to make purchases even easier!
 
 
 Live site can be viewed here: https://anubis-vapes.herokuapp.com/
-
 
 # Contents
 
@@ -43,24 +41,41 @@ This is also a vape shop that has been designed with security in mind. From the 
 ## User Stories
   [Go to the top](#contents)
 
-### User Stories For A Shopper 
+### User Stories For A Shopper and Anonymous Users
 
 Number | User Stories                               
 -------| ----------------------------------------------
-1 | View a list of products to select which ones to buy |
-2 | View a specific category to find what a user wants easily |
-3 | View specifc product details, eg. price, description |
-4 | Sort a list of items. By price, alphabetically, rating, and category |
-5 | To be able to search for an item |
-6 | Select a quantity of an item to buy |
-7 | To view items in my bag including the total of products and price |
-8 | To be able to enter payment details to purchase items |
-9 | To see my order confirmation including what the user has bought |
+1a | View a list of products to select which ones to buy |
+2a | View a specific category to find what a user wants easily |
+3a | View specifc product details, eg. price, description |
+4a | Sort a list of items. By price, alphabetically, rating, and category |
+5a | To be able to search for an item |
+6a | Select a quantity of an item to buy |
+7a | To view items in my bag including the total of products and price |
+8a | To be able to enter payment details to purchase items |
+9a | To see my order confirmation including what the user has bought |
 
 
-### User Stories 
+### User Stories For Registered Users
 
+Number | User Stories                               
+-------| ----------------------------------------------
+1b | Be able to register the users account |
+2b | To be able to log in/out of the users account |
+3b | To recover a lost Password |
+4b | Get a confirmation email to aid in registering the users account |
+5b | Have a personal user profile |
+6b | To save delivery information to profile to speed up the checkout process |
+7b | To be able to place items in their designated wishlist |
+8b | To be able to view their wishlist |
 
+### User Stories For Site Administration
+
+Number | User Stories                               
+-------| ----------------------------------------------
+1c | To be able to add a product with its information to the website |
+2c | To be able to edit a product and its information |
+3c | To delete a product and its information |
 
 
 <a name="wireframes"></a>
@@ -118,9 +133,13 @@ Above is the data schema for the relational database in the Anubis Vapes applica
 
 I have not added a key to this Entity Relationship Diagram as i have labelled each variable next to the name as to what each individual variable is.
 
+What this diagram describes is that the relationship between the profile and wishlist is a 1 to 1 relationship meaning for each profile you can create 1 wishlist. This is also the case for the relationship between the profile and user model.
 
+For the the relationship between the products and the wishlist, this is a one to many relationship meaning many products can go into 1 wishlist. This is also the same between the products and categories, as many products can go into one category.
 
+This diagram also shows that per order only 1 order number is assigned showing a 1 to 1 relationship.
 
+Also this shows that the checkout is updated by using the orderLineitem model as a 1 to 1 relationship. 
 
 <a name="accessibility"></a>
 ## Accessibility
@@ -145,6 +164,28 @@ However below are the only 2 pages in the site that isnt a 100% accessible. In t
 # Website Walkthrough
   [Go to the top](#contents)
 
+![home-page](documentation/readme_image_files/walkthrough/home-page.jpg)
+
+![products-page](documentation/readme_image_files/walkthrough/logged-in-products-page.jpg)
+
+This is the products page (while logged in as admin) this satisfies user stories 1a (for this user story obviously without the user logged in they would not see the edit/delete bvuttons),3c,2c, 5a and 7b
+
+![products-detail](documentation/readme_image_files/walkthrough/logged-in-product-detail.jpg)
+
+This is the products detail page (while logged in as admin) this satisfies user stories 3a,6a(for this user story obviously without the user logged in they would not see the edit/delete bvuttons) , 2c and 3c
+
+![sign-in](documentation/readme_image_files/walkthrough/sign-in.jpg)
+
+This is the sign in page for the website and this satisfies user stories 2b, with access to 3b
+
+![register](documentation/readme_image_files/walkthrough/register.jpg)
+
+This is the registration page and this satisfies user stories 1b, which upon completion would recieve a confirmation which satisfies user story 4b
+
+![profile](documentation/readme_image_files/walkthrough/profile.jpg)
+
+
+
 
 
 
@@ -152,7 +193,25 @@ However below are the only 2 pages in the site that isnt a 100% accessible. In t
 # Methods For Creating The Site
   [Go to the top](#contents)
 
-
+* [HTML5](https://en.wikipedia.org/wiki/HTML) (was used for structuring and presenting content of the website)
+* [CSS](https://en.wikipedia.org/wiki/CSS) (used for the styling of the content)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) (used for the initialisation of features such as quantity buttons)
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) (used for programming the application through Django)
+* [Django](https://en.wikipedia.org/wiki/Django_(web_framework)) (used as the framework for this project)
+* [Google Fonts](https://fonts.google.com/) (used for all the font styling within the project)
+* [Chrome](https://www.google.com/intl/en_uk/chrome/) (used to debug and test the source code and to test site responsiveness)
+* [GitHub](https://github.com/) (used to create the repository and store the projects code after pushed from Git)
+* [Heroku](https://id.heroku.com/login) (Used for deployment of the application alongisde Github)
+* [Gitpod](https://www.gitpod.io/) (used for the editing of code within the project for the site)
+* [W3C Markup](https://validator.w3.org/) (used for validating the html5 code)
+* [CSS Validator](https://www.cssportal.com/css-validator/) (used for validating the CSS code)
+* [JSHint](https://jshint.com/) (this was also used for validating javascript code and double checking results from JSLint)
+* [Am I Responsive](http://ami.responsivedesign.is/#) (used to generate the live site images, and also used to test responsiveness)
+* [Balsamiq](https://balsamiq.com/) (This was used to generate the wireframes)
+* [Dropbox](https://www.dropbox.com) (This was used to host the product images before being pushed to Amazon Web Services)
+* [PeP8 online](http://pep8online.com/) (Used to check and prove pep8 compliance for models,routes.py files)
+* [Miro](https://miro.com) (This was used to create the entity relationship diagram)
+* [Amazon Web Services](https://aws.amazon.com/?nc2=h_lg) (This was used, specifically the S3 bucket to host all images on the site and all static files such as js and css files)
 
 <a name="Testing"></a>
 # Testing
