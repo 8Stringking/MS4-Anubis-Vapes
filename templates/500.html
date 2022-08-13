@@ -1,14 +1,36 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block inner_content %}
-<div class="overlay">
-    <hr>
-    <h2 class="logo-font mb-4">Oooops</h2>
-    <hr>
-    <p class="text-black">Something has gone wrong, please click below to return to the home page</p>
-
-    <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Home</a>
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
 </div>
+{% endblock %}
 
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <hr>
+            <h2 class="logo-font mb-1">500 - Internal Server Error</h2>
+            <hr>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h5 class="col text-center">
+        Sorry, There appears to be a problem loading this page, <br>
+        please return to the main site <br>
+        <a class="btn btn-black font-weight-bold mt-3" href="{% url 'home' %}" role="button">
+            Home
+        </a>
+    </h5>
+</div>
+<div class="row">
+    <div class="col text-center">
+
+    </div>
+</div>
 {% endblock %}
