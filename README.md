@@ -246,7 +246,19 @@ This is the checkout success page and this satisfies user story 9a
 # Bugs
   [Go to the top](#contents)
 
+- Image quality
 The first bug that ive found on my site which i was not able to remedy was the quality of the home image on the home page. I did ensure that this image was sized well, with a good ratio, and this was fine in the development of this site. However when i deployed to heroku and used amazon web services to host the images, the picture is now lower quality and i have tried to fix this, by changing settings in my bucket and even re uploading the image, however since i know the size isnt an issue i can only determine that something in the deployment has affected this, and i have not found a fix for this as of yet.
+
+- Checkout Views
+In the pep8 validation process, it identified an error on the checkout views validation on line 75, saying a line was too long. As stated in the code validation section on the testing.md file I have attempted many times to remedy this issue, and even after extensive research i was unable to find a fix that wouldnt break the checkout app. All previous attempts to fix this resulted in the checkout app not working properly and was unable to process any payments, so ive had to leave it in and document the error.
+
+- Javascript
+Another bug i found while developing this site was the use of javascript in html pages and validating that javascript itself. Where i have been able to, i have moved as much javascript out of my html pages as possible using a update_and_remove file. However in every page of the site i have had to leave some of the javascript where it is. In attempting to remove this javascript and separating it, it broke the toasts function that gives messages to the users on their actions, and other functions as well. After extensive research and attempts i was unable to fix this issue. This also causes the javascript not to pass through jslint without errors. So i have made the decision to leave this, as the site functions in its current state and again i havent found a way to fix this issue.
+
+- HTML Validation
+Another bug i found was that due to the issue above (javascript) every page does throw up a warning when running through the html validator used (see methods section) about the use of the type attribute for JavaScript resources. Again in trying to remedy this issue i found that my site was throwing up errors in the development stages so i have left them in the html as stated above to ensure the site functions correctly.
+
+Another issue with the HTML validation was in the checkout page validation. This 
 
 <a name="deployment"></a>
 # Deployment
