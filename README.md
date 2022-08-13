@@ -24,6 +24,7 @@ Live site can be viewed here: https://anubis-vapes.herokuapp.com/
     * [**Code Validation**](#code-validation)
 * [**Bugs**](#bugs)
 * [**Deployment**](#deployment)
+* [**Credits**](#credits)
 
 <a name="user-experience-ux"></a>
 # User Experience (UX) design
@@ -233,6 +234,7 @@ This is the checkout success page and this satisfies user story 9a
 * [PeP8 online](http://pep8online.com/) (Used to check and prove pep8 compliance for models,routes.py files)
 * [Miro](https://miro.com) (This was used to create the entity relationship diagram)
 * [Amazon Web Services](https://aws.amazon.com/?nc2=h_lg) (This was used, specifically the S3 bucket to host all images on the site and all static files such as js and css files)
+* [stripe](https://stripe.com) (This was used for payments on the site)
 
 <a name="Testing"></a>
 # Testing
@@ -416,3 +418,23 @@ The app was deployed on Heroku and used Amazon Web Services to store static and 
 - Add all your media files
 - in 'Manage Public Permission' section, select 'grant public read access to these objects'
 - Upload
+
+
+<a name="credits"></a>
+## Credits
+  [Go to the top](#contents)
+
+- Code:
+  - The main structure of the site came from the Code Institute 'Boutique Ado' project
+  - General help from:
+    - Code Institutes Student Support
+    - Various sources from Stack Overflow for the wishlist app
+    - Django documentation
+    - Bootstrap 4 documentation
+    - W3Schools
+    - And help from my fellow cohort member Jon Cohen for continued help and support throughout the development of this project!
+
+- Images:
+  - Home page image was from shutterstock
+  - Product images were of generic images off of google images
+  - Hardware images were off of www.vapestore.co.uk
