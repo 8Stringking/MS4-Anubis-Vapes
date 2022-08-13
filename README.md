@@ -258,7 +258,9 @@ Another bug i found while developing this site was the use of javascript in html
 - HTML Validation
 Another bug i found was that due to the issue above (javascript) every page does throw up a warning when running through the html validator used (see methods section) about the use of the type attribute for JavaScript resources. Again in trying to remedy this issue i found that my site was throwing up errors in the development stages so i have left them in the html as stated above to ensure the site functions correctly.
 
-Another issue with the HTML validation was in the checkout page validation. This 
+Another issue with the HTML validation was in the checkout page validation. This page throws up an error involving placeholder content on select element at this time. I have left this in place mainly as this particular piece of code has come from the Django/bootstrap documentation and is also present in the boutique ado project. I have tried to remedy this issue but again due to a fix breaking the country select box i have left this as it is. I can only determine that this is a limitation of Django and bootstrap code as i am unable to fix this issue even with extensive research and many attempted fixes.
+
+The checkout page also throws a warning for an empty heading however this is in place for the loading spinner that displays on screen when making a payment. I have tried to remedy this issue but again every fix i have attempted has broken this function. 
 
 <a name="deployment"></a>
 # Deployment

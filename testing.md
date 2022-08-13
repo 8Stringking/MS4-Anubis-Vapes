@@ -166,6 +166,68 @@ The following images shows the validations for the css:
 ![checkout-css](documentation/testing_image_files/code_validation/checkout-level-css.jpg)
 
 
+### HTML Validation
+
+As stated in the bugs section in the html validation across the site, there is warnings for the javascript in the page. Where i have been able to, i have moved as much javascript out of my html pages as possible using a update_and_remove file. However in every page of the site i have had to leave some of the javascript where it is. In attempting to remove this javascript and separating it, it broke the toasts function that gives messages to the users on their actions, and other functions as well. After extensive research and attempts i was unable to fix this issue. This also causes the javascript not to pass through jslint without errors. So i have made the decision to leave this, as the site functions in its current state and again i havent found a way to fix this issue.
+
+![checkout-page](documentation/testing_image_files/code_validation/html_validation/checkout-page.jpg)
+
+- This image is for the checkout page. As stated in the Bugs section. This page throws up an error involving placeholder content on select element at this time. I have left this in place mainly as this particular piece of code has come from the Django/bootstrap documentation and is also present in the boutique ado project. I have tried to remedy this issue but again due to a fix breaking the country select box i have left this as it is. I can only determine that this is a limitation of Django and bootstrap code as i am unable to fix this issue even with extensive research and many attempted fixes.
+
+The checkout page also throws a warning for an empty heading however this is in place for the loading spinner that displays on screen when making a payment. I have tried to remedy this issue but again every fix i have attempted has broken this function.
+
+![home-page](documentation/testing_image_files/code_validation/html_validation/home-page.jpg)
+
+- This image is for the home page html validation
+
+![login-page](documentation/testing_image_files/code_validation/html_validation/login-page.jpg)
+
+- This image is for the login page html validation
+
+![logout-page](documentation/testing_image_files/code_validation/html_validation/logout-page.jpg)
+
+- This image is for the logout page html validation
+
+![register-page](documentation/testing_image_files/code_validation/html_validation/register-page.jpg)
+
+- This image is for the registration page html validation
+
+![password-reset](documentation/testing_image_files/code_validation/html_validation/password-reset-page.jpg)
+
+- This image is for the password reset page html validation
+
+![account-profile](documentation/testing_image_files/code_validation/html_validation/account-profile.jpg)
+
+- This image is for the account profile page html validation
+
+![all-products](documentation/testing_image_files/code_validation/html_validation/all-products.jpg)
+
+- This image is for the all products page html validation
+
+![product-detail](documentation/testing_image_files/code_validation/html_validation/product-detail-page.jpg)
+
+- This image is for the products detail page html validation
+
+![add-product](documentation/testing_image_files/code_validation/html_validation/add-product.jpg)
+
+- This image is for the add products page html validation
+
+![edit-product](documentation/testing_image_files/code_validation/html_validation/edit-product-page.jpg)
+
+- This image is for the edit product page html validation
+
+![cart](documentation/testing_image_files/code_validation/html_validation/cart.jpg)
+
+- This image is for the cart page html validation
+
+![checkout-success](documentation/testing_image_files/code_validation/html_validation/checkout-success.jpg)
+
+- This image is for the checkout success page html validation
+
+![wishlist](documentation/testing_image_files/code_validation/html_validation/wishlist-page.jpg)
+
+- This image is for the wishlist page html validation
+
 ### Pep8 Validation
 
 Th efollowing images show the evidence for the pep8 validation across the site:
