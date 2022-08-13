@@ -142,6 +142,10 @@ This diagram also shows that per order only 1 order number is assigned showing a
 
 Also this shows that the checkout is updated by using the orderLineitem model as a 1 to 1 relationship. 
 
+![admin-panel-django](documentation/testing_image_files/admin-panel.jpg)
+
+This image above shows the models that are in the admin panel of the site.
+
 <a name="accessibility"></a>
 ## Accessibility
   [Go to the top](#contents)
@@ -210,6 +214,16 @@ This is the checkout page and satisfies user story 8a
 ![checkout-success](documentation/readme_image_files/walkthrough/checkout-success.jpg)
 
 This is the checkout success page and this satisfies user story 9a
+
+![email-verification](documentation/readme_image_files/email-verification.jpg)
+
+This image shows the the email verification does operate and works as intended and satisfies user story 4b
+
+![stripe-payment](documentation/readme_image_files/stripe-successful-payment-confirmation.jpg)
+
+This image shows that the stripe payments are successfull
+
+
 
 <a name="methods-for-creating-the-site"></a>
 # Methods For Creating The Site
