@@ -120,6 +120,8 @@
                             
 {% block postloadjs %}
 {{ block.super }}
+
+<!--this java script as stated in bugs section i cannot separate and causes errors through jslint-->
 <script>
     $('.btt-link').click(function (e) {
         window.scrollTo(0, 0)
