@@ -224,7 +224,6 @@ This image shows the the email verification does operate and works as intended a
 This image shows that the stripe payments are successfull
 
 
-
 <a name="methods-for-creating-the-site"></a>
 # Methods For Creating The Site
   [Go to the top](#contents)
